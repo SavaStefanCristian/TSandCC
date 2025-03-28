@@ -21,6 +21,6 @@ This is a Qt-based C++ application that allows users to interactively create, vi
 - **Directed and Undirected Graph Modes:** Switch between graph types.
 
 
-### Prerequisites
+## Prerequisites
 
 - Qt Creator installed.
