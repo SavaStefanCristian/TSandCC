@@ -1,16 +1,25 @@
-# C++ objects and libs
+# Compiled Object files, Static and Shared libs
 *.slo
 *.lo
 *.o
+*.obj
 *.a
+*.lib
 *.la
 *.lai
 *.so
 *.so.*
-*.dll
 *.dylib
+*.dll
 
-# Qt-es
+# Debug and Release builds
+*.dSYM/
+*.exe
+*.out
+*.app/
+*.ipa
+
+# Qt-specific generated files
 object_script.*.Release
 object_script.*.Debug
 *_plugin_import.cpp
@@ -27,28 +36,36 @@ qrc_*.cpp
 ui_*.h
 *.qmlc
 *.jsc
-Makefile*
-*build-*
-*.qm
-*.prl
-
-# Qt unit tests
-target_wrapper.*
-
-# QtCreator
-*.autosave
-
-# QtCreator Qml
 *.qmlproject.user
 *.qmlproject.user.*
 
-# QtCreator CMake
+# Make & Build files
+Makefile*
 CMakeLists.txt.user*
+*build-*/
+*.prl
+*.pro.sublime-project
+*.pro.sublime-workspace
 
-# QtCreator 4.8< compilation database
-compile_commands.json
-
-# QtCreator local machine specific files for imported projects
+# IDE-specific files
+*.autosave
 *creator.user*
+*.qtc_clangd/
+*.vscode/
 
-*_qmlcache.qrc
+# Cache and Logs
+*.cache
+*.log
+*.swp
+*.bak
+*~ 
+
+# Clangd Indexing Files
+.clangd/
+.qtc_clangd/
+.qtc_clangd/.cache/clangd/index/
+*.idx
+
+# System and temporary files
+.DS_Store
+Thumbs.db
